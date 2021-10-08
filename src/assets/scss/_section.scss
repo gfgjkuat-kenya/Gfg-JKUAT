@@ -1,0 +1,71 @@
+.section {
+  text-align: center;
+  padding: 10rem 0 5rem;
+
+  @include lg {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  @include sm {
+    width: 75%;
+    text-align: left;
+    padding: 4rem 0 2rem;
+    margin: 2rem;
+  }
+
+  h1 {
+    font-size: $font-xl;
+    color: $black;
+    text-transform: capitalize;
+
+    @include lg {
+      font-size: $font-xl-md;
+    }
+
+    @include sm {
+      font-size: $font-xl-sm;
+    }
+
+    span {
+      color: $green;
+    }
+  }
+
+  h3 {
+    color: $light-text;
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: $font-sm;
+
+    @include lg {
+      font-size: $font-sm-md;
+    }
+
+    @include sm {
+      font-size: $font-sm-sm;
+    }
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    background-color: $green;
+    font-size: 1.2rem;
+    color: $white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 5rem;
+    transition: 400ms ease-in-out;
+
+    &:hover {
+      cursor: pointer;
+      box-shadow: 2px 3px 6px $green;
+      text-shadow: 1px 1px 20px $white;
+    }
+
+    @include sm {
+      margin-top: 3rem;
+    }
+  }
+}
