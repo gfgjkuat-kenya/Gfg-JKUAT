@@ -4,7 +4,7 @@ import { IoIosMail } from 'react-icons/io';
 import SocialButtons from './SocialButtons';
 
 const github = 'https://github.com/gfgjkuat-kenya';
-const instagram = 'https://instagram.com/gfg.hnccbits?utm_medium=copy_link';
+const instagram = 'https://www.instagram.com/gfgjkuat_student_chapter/';
 const linkedin = 'https://www.linkedin.com/in/geeksforgeeks-jkuatkenya-9a8b05221/';
 
 function Footer() {
